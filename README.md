@@ -64,6 +64,8 @@ Heaps, Tries, Suffix Trees, Interval Trees
 
 ### Dynamic Programming
 
+This is a good technique to get down. What it boils down to: you take a recursive algorithm, find the overlapping subproblems (repeated calls), and cache those results for future recursive calls.
+
 ### Brain Teasers
 
 Fading trend, but may still be out there. Cover the popular ones.
