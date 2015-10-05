@@ -25,8 +25,8 @@ Stacks and Queues are a special case of Linked Lists. Go over the basic operatio
 
 Example problems
 
-- How do you build an LRU cache? (Linked List is the most usual way of doing so)
-- Can you implement a stack such taht getMinimum() is an O(1) operation?
+- How do you build an LRU cache? (Linked List is the usual way of doing so)
+- Can you implement a stack such that getMinimum() is an O(1) operation?
 
 #### Binary Trees
 
@@ -77,13 +77,14 @@ Mutexes, Read-Write lock, Distributed Resource contention problems.
 Building systems that can handle thousands of requests per hour, or store GBs per second, or across geographically spread locations using hundreds of servers in the cloud. Learn to understand and appreciate some of these challenges.
 
 A good source of problems: highscalability.com. 
+
 Example problems
 
 - How do you design a URL shortening service?
 
 ### Object Oriented Design
 
-Understand popular design patterns. Learn how to translate real world object into Classes. 
+Understand popular design patterns. Learn how to translate real world objects into Classes. 
 
 ### Behavioral Questions
 
@@ -91,7 +92,7 @@ Used to get to know you, understand your resume better, and ease you into the in
 
 #### Interview preparation grid
 
-For your personal projects/resume experiences be sure you can talk in detail to the following:
+For your personal projects/resume experiences be sure you can talk in detail about the following:
 
 - Challenges, Mistakes/Failures, what you enjoyed, leadership, conflicts, and what you'd do differently.
 - Know your technical projects. Also think of follow up questions (how would you scale the application?)
