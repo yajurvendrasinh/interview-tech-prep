@@ -8,20 +8,20 @@ This repo is meant to document and serve as a resource for prepping for a techni
 
 #### Arrays, Strings, and Lookup Tables
 
-Since they have fast lookup and overwrites, Arrays are the most widely used of all data structures. That makes them a very popular interview question. A lookup table is one of the more useful uses of an array and a popular player in Array based interview questions.
+Since they have fast lookup and overwrites, Arrays are the most widely used of all data structures. That makes them a very popular interview question. A Lookup Table is a popular use of an array and a popular choice in Array based interview questions.
 
-Types of problems deal with numeric and character arrays (strings), 2D arrays. Some problems will use hashtables. Problems also will cover basic math (prime numbers, matrices, Fibonacci, etc).
+Types of problems cover numeric and character arrays (strings), 2D arrays. Some problems will use hashtables. Problems will also cover basic math (prime numbers, matrices, Fibonacci, etc).
 
 Example problems
 
 - Can you efficiently find two elements of an array with a max difference between them? What is the inefficient way to do this?
 - Can you compress a string and run length encoding?
-- Can you mutate a string in many possible ways?
+- Mutate a string in all the possible ways.
 - Can you build a regex matcher?
 
 #### Linked Lists, Stacks, Queues
 
-Linked Lists usually aren't dealt with directly in application programming. However, you can find them in software the deals with voice processing/video data. They do make good interview questions. Having a knowledge of Linked Lists also shows that you are familiar with basic memory management, and that you can properly deal with an ordered list of values.
+Linked Lists usually aren't dealt with directly in application programming. However, you can find them in software that handles voice processing/video data. They can make good interview questions. Having a knowledge of Linked Lists also shows that you are familiar with basic memory management and that you can handle an ordered list of values.
 
 Stacks and Queues are a special case of Linked Lists. Go over the basic operation of these structures, and then delve into some frequent applications (for example, traversing trees).
 
