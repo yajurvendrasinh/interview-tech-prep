@@ -1,5 +1,10 @@
 # Resources
 
+### Career Cup resources
+
+- Their [resources](http://www.crackingthecodinginterview.com/resources.html) serve as an excellent starting point.
+- Khan Academy's [Algorithms](https://www.khanacademy.org/computing/computer-science/algorithms) course, created by some of the guys behind [CLRS](https://en.wikipedia.org/wiki/Introduction_to_Algorithms).
+
 ### Resources recommended by Google
 
 - Amy Cuddy's [Power pose TED talk](https://www.youtube.com/watch?v=Ks-_Mh1QhMc)
