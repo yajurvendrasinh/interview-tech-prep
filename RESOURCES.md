@@ -1,5 +1,16 @@
 # Resources
 
+### Blogs
+
+- [Top 10 algorithms for interviews](http://www.programcreek.com/2012/11/top-10-algorithms-for-coding-interview/)
+- [Some Things I learned from 25 Software Engineering Interviews](http://hiimmelissa.me/?p=21)
+
+### Practice Problems
+
+- [Leetcode](https://leetcode.com/)
+- [HackerRank](https://www.hackerrank.com/)
+- [Coderbyte](http://coderbyte.com/)
+
 ### Career Cup resources
 
 - Their [resources](http://www.crackingthecodinginterview.com/resources.html) serve as an excellent starting point.
