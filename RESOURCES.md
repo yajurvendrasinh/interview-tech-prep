@@ -1,9 +1,11 @@
 # Resources
 
-### Blogs
+### Blog posts
 
 - [Top 10 algorithms for interviews](http://www.programcreek.com/2012/11/top-10-algorithms-for-coding-interview/)
 - [Some Things I learned from 25 Software Engineering Interviews](http://hiimmelissa.me/?p=21)
+- [A young woman's etiquette guide to coding](http://www.thecodingspace.com/blog/a-young-womans-etiquette-guide-to-coding)
+- [My favorite interview question](https://www.nczonline.net/blog/2015/09/my-favorite-interview-question/)
 
 ### Practice Problems
 
