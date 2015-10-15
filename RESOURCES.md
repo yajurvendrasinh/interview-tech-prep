@@ -1,5 +1,23 @@
 # Resources
 
+### Platforms
+
+- [Hired](https://hired.com/) 
+  Recruiting Platform
+- [Triplebyte](https://triplebyte.com/) 
+  Interview platform to work at a YC startup.
+- [Lytmus](https://www.lytmus.io/757#current-showcase) 
+  Interview tryouts.
+- [Recpass](https://recpass.com/discover) 
+  Recruiting tool used by many companies.
+
+### Contests
+
+- [topcoder](https://www.topcoder.com/)
+- [HackerRank](https://www.hackerrank.com/) 
+  Contests hosted by companies.
+- [Google Code Jam](https://code.google.com/codejam) 
+
 ### Blog posts
 
 - [Top 10 algorithms for interviews](http://www.programcreek.com/2012/11/top-10-algorithms-for-coding-interview/)
