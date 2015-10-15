@@ -1,6 +1,6 @@
 ### Problem #1
 
-Find top words using Pinterest APIs and Python
+Find top words using Pinterest APIs and Python.
 
 ####Objective
 
@@ -16,7 +16,8 @@ A word is defined as any string that:
 - starts and ends with an alphabetic ASCII letter.
 - only contains ASCII characters that are the alphabet, ', or -.
 - is not in nltk's stopwords (provided for your convenience as NLTK_STOPWORDS in the source).
-Requirements
+
+####Requirements
 
 Be sure your answers are returned in a set().
 
@@ -64,11 +65,9 @@ top_n_words(266627309128262271, 6)
 
 ####Take Note
 
-If you do not have a Pinterest API access token, please go to the following URL to generate one: https://developers.pinterest.com/tools/access_token/.
-
-By default, our API only returns up to 25 pins. Take a look at https://developers.pinterest.com/docs/api/overview/ to learn how to get paginated responses.
-
-To see what a board’s ID is, view the source of the page and search for board_id.
+- If you do not have a Pinterest API access token, please go to the following URL to generate one: https://developers.pinterest.com/tools/access_token/.
+- By default, our API only returns up to 25 pins. Take a look at https://developers.pinterest.com/docs/api/overview/ to learn how to get paginated responses.
+- To see what a board’s ID is, view the source of the page and search for board_id.
 Save your code in ~/Lytmus/question_2/answer.py.
 
 ###Problem #2
@@ -77,7 +76,7 @@ Find the closest Place Pin
 
 ####Objective
 
-Given a board id, a latitude and longitude coordinates, find the closest Place Pin on the board to the coordinates
+Given a board id, a latitude and longitude coordinates, find the closest Place Pin on the board to the coordinates.
 
 ####Details
 
