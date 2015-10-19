@@ -72,7 +72,7 @@ Save your code in ~/Lytmus/question_2/answer.py.
 
 ###Problem #2
 
-Find the closest Place Pin
+Find the closest Place Pin.
 
 ####Objective
 
