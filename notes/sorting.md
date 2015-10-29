@@ -53,7 +53,7 @@ Merging:
 - 2) Sort: recursively sort the sublists
 - 3) Merge: merge the sorted sublists into a sorted list
 
-####Dividing
+Dividing
 
 - Systematically split the list into two sublists: items that are smaller than the first item and items that are larger than the first item. 
 - Markers needed: mark items that have been divided, and a marker to separate the divided items into two groups: one group that is smaller than the first item and one group that is larger than the first item. 

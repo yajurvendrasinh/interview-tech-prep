@@ -42,6 +42,7 @@
 - Amy Cuddy's [Power pose TED talk](https://www.youtube.com/watch?v=Ks-_Mh1QhMc)
 - Steve Yegge's blog post on [getting a job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
 - A technical interview prep [video](https://www.youtube.com/watch?v=oWbUtlUhwa8) by Google
+- Google's internal [interview training](https://rework.withgoogle.com/guides/hiring-train-your-interviewers/steps/introduction/) and [process](https://rework.withgoogle.com/guides/hiring-use-structured-interviewing/steps/introduction/)
 
 ### Books
 
