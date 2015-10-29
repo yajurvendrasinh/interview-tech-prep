@@ -8,7 +8,7 @@ Binary search is an efficient algorithm for finding an item from an ordered list
 
 Binary search repeatedly divides an ordered list in half until it finds the item.
 
-### Psuedocode
+#### Psuedocode
 
 - Inputs: an array or sorted ints, an int to find
 - Output: index in array where int to find is
@@ -25,7 +25,7 @@ Step 5. if array[guess] is too high, set max to be array[guess-1]
 
 Step 6. Go back to step 2 and continue guessing.
 
-### Implementation
+#### Implementation
 
 ```
 var binarySearch = function(array, targetValue) {
@@ -51,7 +51,7 @@ var target = 7;
 binarySearch(arr, 7); //6
 ```
 
-### Run time discussion
+#### Run time discussion
 
 Every time we double the size of the input array we need to make one more guess. We expect the number of guesses in the worst case to be the number of times we repeatedly halve n until we get the value, plus 1.
 
