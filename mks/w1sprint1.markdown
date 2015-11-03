@@ -25,7 +25,7 @@ JavaScript is a compiled language. Steps compiler goes through:
 2. Compiler: parsing and code generation.
 3. Collects and has a look-up list of declared identifiers and enforces how these are accessed to currently executing code.
 
-####Dynamic generation: legacy behavior that is deprecated:
+###Dynamic generation: legacy behavior that is deprecated:
 
 - eval()
 - setTimeout()
@@ -35,3 +35,7 @@ JavaScript is a compiled language. Steps compiler goes through:
 
 - A Closure is a function is able to remember and access its lexical scope even when that function is executing outside its lexical scope.
 - Closures are functions that refer to independent (free) variables. In other words, the function defined in the closure 'remembers' the environment in which it was created.
+
+### Quizzes
+
+- [Scope](http://madebyknight.com/javascript-scope/)
