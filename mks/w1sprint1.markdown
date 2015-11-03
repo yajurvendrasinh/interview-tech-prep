@@ -40,6 +40,36 @@ JavaScript is a compiled language. Steps compiler goes through:
 
 - [Scope](http://madebyknight.com/javascript-scope/)
 
+### Truthy and Falsy values
+
+The following values are always falsy.
+
+- false
+- 0 (zero)
+- "" (empty string)
+- Null
+- undefined
+- NaN
+
+Values that are truthy include ALL objects, functions, arrays. Even empty ones!
+
+### Common idiom: casting truthy values to a boolean
+
+```
+  _.every = function(collection, iterator) {
+
+    var predicate = iterator;
+    if (predicate === undefined) {
+      predicate = _.identity;
+    }
+
+    return _.reduce(collection, function(result, item) {
+      return !!(predicate(item) && result);
+    }, true);
+
+  };
+```
+
 ### Additional JS I learned
 
 ```
