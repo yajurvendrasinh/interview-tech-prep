@@ -19,11 +19,10 @@ var House = function(color) {
   obj.color = color;
   obj.door = 'open';
 
-  //Explicitly define/borrow methods
+  //Explicitly define methods
   obj.openDoor = function() {
   obj.dorr = 'open;'
   }
-
 
  //return Object
   return obj;
@@ -33,13 +32,41 @@ var House = function(color) {
 var house = House('red');
 ```
 
-- *Pros*: very clear object construction.
-- *Cons*: results in duplicate methods.
+- **Pros**: very clear object construction.
+- **Cons**: results in duplicate methods.
 
 ###The functional-shared pattern
 
 - a simple "maker" pattern with shared methods
 - does not use `new` or `prototype` chains
+
+```
+var House = function(color) {
+  
+  //Generate Object
+  var obj = {} 
+
+  //Assign properties
+  obj.color = color;
+  obj.door = 'open';
+
+  //Explicitly define methods
+  obj.openDoor = houseMethod;
+
+ //return Object
+  return obj;
+}
+
+var houseMethod = function() {
+  this.door = 'open;'
+  }
+
+//instantiate
+var house = House('red');
+```
+
+- **Pros**: Methods shared between objects
+- **Cons**: Setting a pointer to a method is less efficient than delegating a fallback.
 
 ###The prototypal pattern
 
