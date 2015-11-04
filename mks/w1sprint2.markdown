@@ -1,4 +1,4 @@
-### Data Modeling and Classes
+## Data Modeling and Classes
 
 There are 4 different instantiation patterns in JavaScript. Here is a good [spreadsheet](http://www.ryanatkinson.io/javascript-instantiation-patterns/) outlining each. I'll walk through all of them.
 
@@ -57,6 +57,7 @@ var House = function(color) {
   return obj;
 }
 
+//shared method
 var houseMethod = function() {
   this.door = 'open;'
   }
@@ -138,6 +139,18 @@ var house = new House('red');
 
 - **Pros**: much more concise code, clear `this` binding, and delegates to House.prototype methods
 - **Cons**: interpreter magic happens and makes object construction unclear
+
+## Style
+
+If using Sublime:
+
+```
+{
+
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true
+}
+```
 
 
 
