@@ -39,6 +39,7 @@ var house = House('red');
 
 - a simple "maker" pattern with shared methods
 - does not use `new` or `prototype` chains
+- use extend() to programmatically store all functions we plan to add on methods
 
 ```
 var House = function(color) {
@@ -64,6 +65,22 @@ var houseMethod = function() {
 
 //instantiate
 var house = House('red');
+```
+
+Another variation on that pattern
+
+```
+var Car = function(loc) {
+  var obj = {loc: loc};
+  extend(obj, Car.methods);
+  return obj;
+};
+
+//declutter methods object out of
+//the global scope
+Car.methods = {
+  move : function() { this.loc++; }
+};
 ```
 
 - **Pros**: Methods shared between objects
@@ -97,6 +114,16 @@ House.prototype.openDoor = function() {
 
 //instantiate
 var house = House('red');
+```
+
+More prototype patterns
+
+- The Object.create function can create functions for you for look delegation. Just pass in the desired fallback object.
+
+```
+//creates a new object (rose) that delegates failed lookups to your fallback object (gold)
+
+var rose = new Object(gold);
 ```
 
 - **Pros**: instances delegate fallback to House.prototype methods
@@ -151,6 +178,28 @@ If using Sublime:
   "translate_tabs_to_spaces": true
 }
 ```
+
+Do not use:
+
+- Switch statements
+- `with` forbidden in strict mode
+- primitive constructors (new String("Hello"))
+
+###Value versus Reference
+
+- Numbers, Booleans, and Strings compare and copy by value
+- Objects are copied, compared, and passed to a function by reference
+
+###Decorators
+
+- accepts target object as input. This is opposed to a class that builds an object.
+- functions that add extra properties and functionality to an object
+- use adjectives as names for decorators
+- methods provide encapsulation of behavior
+
+
+
+
 
 
 
