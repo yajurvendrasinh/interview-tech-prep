@@ -83,7 +83,7 @@ Values that are truthy include ALL objects, functions, arrays. Even empty ones!
 ####What `this` IS NOT
 
 - It does not let a function get a reference to itself
-- 'this' DOES NOT refer to a function's lexical scope
+- `this` DOES NOT refer to a function's lexical scope
 - You CANNOT use a `this` reference to look something up in a lexical scope. It is not possible.
 
 #### How do we find the call-site, how the function is called
@@ -129,13 +129,13 @@ obj.foo(); // 2
 Only difference between call() and apply() is that call can look like this:
 
 ```
-myFunc.call(this,1,2,3,4)
+myFunc.call(obj,1,2,3,4) //this = obj
 ```
 
-Whereas apply can only looks like this: 
+Whereas apply can only look like this: 
 
 ```
-myFunc.apply(this,[1,2,3,4])
+myFunc.apply(obj,[1,2,3,4])
 ```
 
 ### Additional JS I learned
