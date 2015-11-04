@@ -72,7 +72,7 @@ Values that are truthy include ALL objects, functions, arrays. Even empty ones!
 
 ### `this` keyword
 
-- Kyle's `this` articles [here](https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/ch1.md) and [here](https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/ch2.md)
+- Kyle's `this` articles [here](https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/ch1.md) and [here](https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/ch2.md) are incredibly helpful.
 
 ####What `this` is
 - A special identifier that is automatically defined in the scope of every function.
@@ -106,7 +106,7 @@ foo(); // 2
 
 - NOTE: If strict mode is in effect, the global object is not eligible for the default binding, so the this is instead set to undefined.
 
-Rule #2: When there is a context object for a function reference, the implicit binding rule says that it's that object which should be used for the function call's this binding.
+**Rule #2**: When there is a context object for a function reference, the implicit binding rule says that it's that object which should be used for the function call's this binding.
 
 ```
 function foo() {
@@ -121,6 +121,14 @@ var obj = {
 obj.foo(); // 2
 ```
 
+#### `this`, call(), and apply()
+
+- both invoke the function at that time
+- myFunc.call(obj). This bounds `this` to obj when myFunc is called.
+- Only difference between call() and apply() is that call can look like this: 
+  `myFunc.call(this,1,2,3,4)` 
+  Whereas apply can only looks like this: 
+  'myFunc.apply(this,[1,2,3,4])'
 
 ### Additional JS I learned
 
