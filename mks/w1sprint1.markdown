@@ -125,10 +125,18 @@ obj.foo(); // 2
 
 - both invoke the function at that time
 - myFunc.call(obj). This bounds `this` to obj when myFunc is called.
-- Only difference between call() and apply() is that call can look like this: 
-  `myFunc.call(this,1,2,3,4)` 
-  Whereas apply can only looks like this: 
-  'myFunc.apply(this,[1,2,3,4])'
+
+Only difference between call() and apply() is that call can look like this:
+
+```
+myFunc.call(this,1,2,3,4)
+```
+
+Whereas apply can only looks like this: 
+
+```
+myFunc.apply(this,[1,2,3,4])
+```
 
 ### Additional JS I learned
 
