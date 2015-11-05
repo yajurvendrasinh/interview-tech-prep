@@ -199,6 +199,42 @@ Do not use:
 - use adjectives as names for decorators
 - methods provide encapsulation of behavior
 
+###Prototypes
+
+What they are not:
+
+- JavaScript just has objects. There are no abstract patterns/blueprints for objects called "classes" as there are in class-oriented languages.
+- JavaScript is one of a very short list of languages where an object can be created directly, without a class at all.
+- In JavaScript, *classes* cannot describe what an object can do, because classes do not exist. The object defines its own behavior directly.
+
+####`.prototype` vs the prototype chain `.__proto__`
+
+- `.prototype` is a reference to an object.
+
+```
+var obj = {};
+
+var myProto = {
+  foo: 7
+};
+
+var yourProto = {
+  bar: 4
+}
+
+console.log(obj.foo); //undefined
+
+//.__proto__ is deprecated
+obj.__proto__ = myProto;
+
+console.log(obj.foo); //7
+
+obj = Object.create(yourProto);
+
+console.log(obj.bar); //4
+```
+
+
 
 
 
