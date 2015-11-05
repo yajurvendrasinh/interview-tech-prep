@@ -2,6 +2,8 @@
 
 There are 4 different instantiation patterns in JavaScript. Here is a good [spreadsheet](http://www.ryanatkinson.io/javascript-instantiation-patterns/) outlining each. I'll walk through all of them.
 
+- Really great [site](http://www.objectplayground.com/) to visualize prototypes and objects in Javascript.
+
 ###The functional pattern
 
 - a simple "maker" pattern
