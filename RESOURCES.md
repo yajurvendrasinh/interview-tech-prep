@@ -1,5 +1,9 @@
 # Resources
 
+### Practice
+
+- [Interactive coding challenges repo](https://github.com/donnemartin/interactive-coding-challenges#arrays-and-strings)
+
 ### Platforms
 
 - [Hired](https://hired.com/) 

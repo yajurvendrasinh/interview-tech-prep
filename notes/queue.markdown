@@ -30,3 +30,31 @@ Queue.prototype.size = function() {
   return this.count;
 }
 ```
+
+Alternatively you can use a LinkedList to implement a Queue:
+
+```
+var Queue = function() {
+  var queueInstance = LinkedList();
+  queueInstance.count = 0;
+  queueInstance.enqueue = queueMethods.enqueue;
+  queueInstance.dequeue = queueMethods.dequeue;
+  queueInstance.size = queueMethods.size;
+  return queueInstance;
+}
+
+queueMethods = {
+  enqueue : function(value) {
+    this.addToTail(value);
+    this.count++;
+  },
+  dequeue : function() {
+    var result = this.removeHead();
+    this.count--;
+    return result;
+  },
+  size : function() {
+    return this.count;
+  }
+}
+```

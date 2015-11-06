@@ -27,3 +27,31 @@ Stack.prototype.size = function() {
   return this.count;
 };
 ```
+
+Alternatively you can use a LinkedList to implement a Stack:
+
+```
+var Stack = function() {
+  var stackInstance = LinkedList();
+  stackInstance.count = 0;
+  stackInstance.push = stackMethods.push;
+  stackInstance.pop = stackMethods.pop;
+  stackInstance.size = stackMethods.size;
+  return stackInstance;
+}
+
+stackMethods = {
+  push : function(value) {
+    this.addToTail(value);
+    this.count++;
+  },
+  pop : function() {
+    //removeTail
+    
+
+  },
+  size : function() {
+    return this.size;
+  }
+}
+```
