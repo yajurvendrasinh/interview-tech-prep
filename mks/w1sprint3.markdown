@@ -18,6 +18,8 @@ Resizing
 - If you have 70% slot capacity, resize up
 - If you have 30% slot capacity, resize down
 
+### TDD
+
 
 
 
