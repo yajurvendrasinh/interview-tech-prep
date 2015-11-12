@@ -3,6 +3,7 @@
 ### Practice
 
 - [Interactive coding challenges repo](https://github.com/donnemartin/interactive-coding-challenges#arrays-and-strings)
+- [How to find a Solution](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/)
 
 ### Platforms
 
