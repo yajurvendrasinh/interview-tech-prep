@@ -34,3 +34,27 @@
 ### API Keys
 
 - authenticate you.
+
+### Package Managers
+
+- NPM: backend dependencies
+- Bower: frontend dependencies
+
+### The JavaScript Event Loop
+
+- [Blog post on event loop](http://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/)
+
+- Java, Ruby, Python have a request/reponse model.
+- JavaScript's event driven interaction model is a concurrency model.
+- Server-side applications typically are synchronous and linear in following requests and responses.
+- When working with user interfaces where there is non-blocking I/O ("mousedown", "click" can be triggered any time), you need a different kind of model.
+- The event loop allows us to decouple the caller from the response. This means JS lets you do other things while waiting for your async request to get a response.
+
+### Web workers
+
+- web workers have a copy of what your main thread has (a separate message queue, event loop, and memory space) and they can handle expensive operations which frees the main thread to be able to do other things.
+
+![web-workers](/img/web-workers.png)
+
+
+
