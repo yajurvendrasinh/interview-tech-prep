@@ -1,5 +1,7 @@
 ### What text editor do I use?
 
+link to presentation: https://slides.com/polinasoshnin/deck/edit
+
 ### GUIs
 
 - Sublime Text 
@@ -54,6 +56,8 @@ http://emacsformacosx.com/
 http://aquamacs.org/
 
 ### Integrated Development Enviroments (IDEs)
+
+Gives you a source code editor, build automation tools, and a debugger.
 
 - iOS: Xcode
 - Android: Android Studio or Eclipse (deprecated)
