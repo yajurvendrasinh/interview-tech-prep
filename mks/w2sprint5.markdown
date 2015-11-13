@@ -42,8 +42,6 @@
 
 ### The JavaScript Event Loop
 
-- [Blog post on event loop](http://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/)
-
 - Java, Ruby, Python have a request/reponse model.
 - JavaScript's event driven interaction model is a concurrency model.
 - Server-side applications typically are synchronous and linear in following requests and responses.
@@ -52,9 +50,32 @@
 
 ### Web workers
 
-- web workers have a copy of what your main thread has (a separate message queue, event loop, and memory space) and they can handle expensive operations which frees the main thread to be able to do other things.
+- Web workers have a copy of what your main thread has (a separate message queue, event loop, and memory space) and they can handle expensive operations which frees the main thread to be able to do other things.
+- Web workers schedule jobs for processing and immediately return to client.
+
+Examples of when you would want to add a background job:
+
+- Fetching data from remote APIs
+- Reading RSS feeds
+- Resizing images
+- Uploading data to S3
 
 ![web-workers](/img/web-workers.png)
+
+### Takeaways from JavaScript's concurrency model
+
+- JavaScript uses a simple message queue and event loop.
+- This is a collection of asynchronously fired callbacks.
+- This allows the JS runtime to handle concurrent operations while waiting for these external (async) events to happen.
+
+Resources
+
+- [Blog post on event loop](http://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/)
+- [Heroku article on implementing background jobs](https://devcenter.heroku.com/articles/background-jobs-queueing)
+- [Great video: What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
+
+
+
 
 
 
