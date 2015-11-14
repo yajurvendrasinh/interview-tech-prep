@@ -68,11 +68,21 @@ Examples of when you would want to add a background job:
 - This is a collection of asynchronously fired callbacks.
 - This allows the JS runtime to handle concurrent operations while waiting for these external (async) events to happen.
 
+### What the heck is the event loop anyway?
+
+- [Great video: What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
+
+- What is JS? A single threaded, non-blocking, asynchronous, concurrent language.
+- JS has a call stack, event loop, callback queue, and some other APIs and stuff.
+- The JS runtime engine (V8) has a callstack and a heap.
+
 Resources
 
+- [What happens when you type google.com into your browser and press enter?](https://github.com/alex/what-happens-when)
 - [Blog post on event loop](http://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/)
 - [Heroku article on implementing background jobs](https://devcenter.heroku.com/articles/background-jobs-queueing)
-- [Great video: What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
+- [An introduction to reactive programming](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
+
 
 
 
