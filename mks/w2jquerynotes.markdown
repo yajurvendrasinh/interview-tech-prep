@@ -52,7 +52,6 @@ $.ajax({
 });
 
 ```
-
 Another GET request
 
 ```
@@ -70,5 +69,17 @@ $.ajax({
 });
 
 ```
+
+### JQuery vs Backbone
+
+In jQuery we did our best to separate our concerns. Backbone allows us to do much better. The other motivation for using Backbone is that it eliminates the need for adding a lot of boilerplate code. In our jQuery implementation there's a lot of code reuse in our Ajax functions. Wouldn't it be great if we could abstract that out into a function?
+
+### Backbone
+
+- Uses a psuedoclassical instantiation model.
+- Has an extend() function that implements subclassing for you.
+
+
+
 
 
