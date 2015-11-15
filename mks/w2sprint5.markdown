@@ -82,6 +82,7 @@ Resources
 - [Blog post on event loop](http://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/)
 - [Heroku article on implementing background jobs](https://devcenter.heroku.com/articles/background-jobs-queueing)
 - [An introduction to reactive programming](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
+- [React vs Angular 2](https://docs.google.com/document/d/1Ah9IJ72DhV4AzoZ1TJUnMzj42PzQrLrwQUkg9koO0dg/preview#heading=h.wean4vnz2k7)
 
 
 
