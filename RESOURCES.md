@@ -69,4 +69,12 @@
 - [Latency Numbers Every Programmer Should Know](https://quizlet.com/91957128/latency-numbers-every-programmer-should-know-flash-cards/)  
   Flash cards with useful estimates for reasoning about how long operations take. 
 
+### Workflow
+
+- [Professional Git workflow](http://nvie.com/posts/a-successful-git-branching-model/)
+
+### Junior engineer
+
+- http://blog.carbonfive.com/2014/03/03/the-junior-jump-life-after-coding-bootcamps/
+
 
