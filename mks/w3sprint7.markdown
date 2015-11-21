@@ -60,7 +60,8 @@ ES6 Conventions:
 - Use semicolons in ES6 to avoid having to know [the Rules of ASI](http://bclary.com/2004/11/07/#a-7.9.1)
 - [ES6 Coding Style Guide from Mozilla](https://github.com/mozilla/addon-sdk/wiki/Coding-style-guide)
 - [Intro to modules](https://babeljs.io/docs/learn-es2015/#modules)
-
+- [what is `strict` mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)
+- [what is `void 0`](http://stackoverflow.com/questions/7452341/what-does-void-0-mean)
 
 
 
