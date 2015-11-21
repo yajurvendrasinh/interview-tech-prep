@@ -51,9 +51,9 @@ Examples
 
 ES6 Conventions:
 
-1. use const by default.
-2. use let if you have to rebind a variable.
-3. use var to signal untouched legacy code.
+1. Use `const` by default.
+2. Use `let` if you have to rebind a variable.
+3. Use `var` to signal untouched legacy code.
 
 ### Resources
 
