@@ -76,13 +76,6 @@ Examples of when you would want to add a background job:
 - JS has a call stack, event loop, callback queue, and some other APIs and stuff.
 - The JS runtime engine (V8) has a callstack and a heap.
 
-Resources
-
-- [What happens when you type google.com into your browser and press enter?](https://github.com/alex/what-happens-when)
-- [Blog post on event loop](http://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/)
-- [Heroku article on implementing background jobs](https://devcenter.heroku.com/articles/background-jobs-queueing)
-- [An introduction to reactive programming](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
-- [React vs Angular 2](https://docs.google.com/document/d/1Ah9IJ72DhV4AzoZ1TJUnMzj42PzQrLrwQUkg9koO0dg/preview#heading=h.wean4vnz2k7)
 
 
 

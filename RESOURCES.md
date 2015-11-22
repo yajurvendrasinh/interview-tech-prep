@@ -4,7 +4,6 @@
 
 - [Interactive coding challenges repo](https://github.com/donnemartin/interactive-coding-challenges#arrays-and-strings)
 - [How to find a Solution](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/)
-- [JS interview questions](http://www.thatjsdude.com/interview/js1.html)
 
 ### Platforms
 
@@ -77,4 +76,7 @@
 
 - http://blog.carbonfive.com/2014/03/03/the-junior-jump-life-after-coding-bootcamps/
 
+### Culture Fit
+
+- [Questions to ask employers](https://github.com/ChiperSoft/InterviewThis)
 
