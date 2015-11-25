@@ -13,6 +13,10 @@ Self Assessment
 - [Front end Quiz](http://davidshariff.com/quiz/)
 - [Test driven JS assessment](https://github.com/rmurphey/js-assessment)
 
+Language
+
+- [How do Promises Work?](http://robotlolita.me/2015/11/15/how-do-promises-work.html#a-conceptual-understanding-of-promises)
+
 Client/Server
 
 - [Great video: What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
