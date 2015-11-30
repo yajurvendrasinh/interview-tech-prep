@@ -21,8 +21,13 @@ In the last 20 years, we've had a stateless-web based on the stateless request/r
 
 ####NPM, the Node Package Manager
 
-- works like Ruby Gems
+- Works like Ruby Gems: you can build your own Modules and your own Node packages.
 - [Understanding NPM](https://unpm.nodesource.com/)
+- NPM is commonly used for managing Node.js modules. It works on the front end when combined with [Browserify](http://browserify.org/).
+- The difference between the NPM and [Bower](http://bower.io/) is that Bower is solely for the front-end. The biggest difference is that NPM does nested dependency tree (size heavy) while Bower requires a flat dependency tree (puts the burden of dependency resolution on the user).
+- Some projects use both: they use Bower for front-end packages and NPM for developer tools like Yeoman, Grunt, Gulp, JSHint, CoffeeScript, etc.
+- A nested dependency tree means that your dependencies can have its own dependencies which can have their own, and so on. This is really great on the server where you don't have to care much about space and latency.
+- NPM aims for stability. Bower aims for minimal resource load. 
 
 ####Examples of where you should use Node.js
 
