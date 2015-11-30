@@ -40,3 +40,12 @@ Backbone
 - [What is a collection?](https://cdnjs.com/libraries/backbone.js/tutorials/what-is-a-collection/)
 - [How do JS timers work?](http://ejohn.org/blog/how-javascript-timers-work/)
 
+Node.js
+
+- [Node module documentation- export and require](https://nodejs.org/api/modules.html)
+- [Handling POST data in Node](http://blog.frankgrimm.net/2010/11/howto-access-http-message-body-post-data-in-node-js/)
+- [Handling POST request in Node](http://stackoverflow.com/questions/15427220/how-to-handle-post-request-in-node-js)
+- [HTTP Options method](http://zacstewart.com/2012/04/14/http-options-method.html)
+
+
+
