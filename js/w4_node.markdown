@@ -57,7 +57,7 @@ In the last 20 years, we've had a stateless-web based on the stateless request/r
 - [Understanding NPM](https://unpm.nodesource.com/)
 - NPM is commonly used for managing Node.js modules. It works on the front end when combined with [Browserify](http://browserify.org/).
 - The ONLY time you want to install things **globally** with npm is to install command line tools. Otherwise install it locally.
-- The difference between the NPM and [Bower](http://bower.io/)(created by Twitter) is that Bower is solely for the front-end. The biggest difference is that NPM does nested dependency tree (size heavy) while Bower requires a flat dependency tree (puts the burden of dependency resolution on the user).
+- The difference between the NPM and [Bower](http://bower.io/) (created by Twitter) is that Bower is solely for the front-end. The biggest difference is that NPM does nested dependency tree (size heavy) while Bower requires a flat dependency tree (puts the burden of dependency resolution on the user).
 - Some projects use both: they use Bower for front-end packages and NPM for developer tools like Yeoman, Grunt, Gulp, JSHint, CoffeeScript, etc.
 - A nested dependency tree means that your dependencies can have its own dependencies which can have their own, and so on. This is really great on the server where you don't have to care much about space and latency.
 - NPM aims for stability. Bower aims for minimal resource load. 
