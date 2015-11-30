@@ -15,6 +15,7 @@ Self Assessment
 
 Language
 
+- [Javascript vs ES6 vs Typescript vs Coffeescript](http://www.slideshare.net/NeilGreen1/type-script-vs-coffeescript-vs-es6)
 - [How do Promises Work?](http://robotlolita.me/2015/11/15/how-do-promises-work.html#a-conceptual-understanding-of-promises)
 
 Client/Server

@@ -21,17 +21,6 @@ Transpile
 coffee --output compiled --map --watch --compile ./
 ```
 
-Specific Coffeescript shenanigans
-
-ES5 | Coffeescript |
---- | --- |
-Selection Sort | O(n) | 
-Insertion Sort | O(n)| 
-Merge Sort | O(n) |   
-Quick Sort | O(n) |  
-Binary Search | O(1) |
-
-
 ### ES6 notes
 
 ES6 is a superset of ES5. Currently most JavaScript interpreters support ES5. ECMA refers to the European Computer Manufacturers Association.
