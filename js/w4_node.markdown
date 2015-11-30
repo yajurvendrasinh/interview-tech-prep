@@ -12,6 +12,13 @@
 - Node is the REPL I wanted!
 - Allows you to use JavaScript across the stack
 
+####Installing Node
+
+- You need NPM. Install using Brew: `brew install node`
+- Install Node using `n`. `npm install -g n`, `n stable`
+- Override Node installed by Brew: `n stable`
+- Uninstall the version of node you installed with brew, `brew uninstall node`
+
 ####Pros
 
 In the last 20 years, we've had a stateless-web based on the stateless request/response paradigm. With Node you can write web apps with real-time, two-way connections. Instead of just the client initiating communication, now the server can initiate communication!
