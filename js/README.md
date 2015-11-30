@@ -17,6 +17,7 @@ Language
 
 - [Javascript vs ES6 vs Typescript vs Coffeescript](http://www.slideshare.net/NeilGreen1/type-script-vs-coffeescript-vs-es6)
 - [How do Promises Work?](http://robotlolita.me/2015/11/15/how-do-promises-work.html#a-conceptual-understanding-of-promises)
+- [What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
 
 Client/Server
 
