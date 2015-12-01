@@ -13,6 +13,10 @@ Self Assessment
 - [Front end Quiz](http://davidshariff.com/quiz/)
 - [Test driven JS assessment](https://github.com/rmurphey/js-assessment)
 
+Community Discussions
+
+- [What Elm and Haskell are teaching mainstream JS](http://begriffs.com/posts/2015-11-30-functional-front-end-coding.html)
+
 Language
 
 - [Javascript vs ES6 vs Typescript vs Coffeescript](http://www.slideshare.net/NeilGreen1/type-script-vs-coffeescript-vs-es6)
