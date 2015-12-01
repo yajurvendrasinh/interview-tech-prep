@@ -32,11 +32,10 @@ The function bind returns a function.
 
 ```
 var bind = function(func, context) {
-  var savedThis = this;
 
   return function() {
     //cannot do func(), that is a free function invocation
-    func.call(context);
+    func.apply(context);
 
   };
 }
@@ -45,10 +44,48 @@ var bind = function(func, context) {
 Another way to reimplement bind with dot notation:
 
 ```
+Function.prototype.bind = function(context) {
+  var func = this;
 
+  return function(){
+    func.apply(context);
 
+  }
+};
+```
+
+### Full implementation supporting adding arguments
 
 ```
+//inputs: function, context, args to prepend to arguments
+//output: new function that has a preset context
+//such that when the new function is executed
+//it's executed in that context
+var bind = function(func, context){
+  var args = Array.prototype.slice.call(arguments, 2);
+  
+  return function(){
+    var boundArgs = args.concat(Array.prototype.slice.call(arguments));
+    return func.apply(context, boundArgs);
+  }
+};  
+
+Function.prototype.bind = function(context) {
+  var args = Array.prototype.slice.call(arguments, 1);
+  var func = this; 
+  return function(){
+    var boundArgs = args.concat(Array.prototype.slice.call(arguments));
+    return func.apply(context, boundArgs);
+  }
+};
+```
+
+#### Examples where `bind` is used
+
+- Click handlers
+- SetTimeOut
+- Event binding with querySelectorAll
+
 
 
 
