@@ -80,6 +80,27 @@ Function.prototype.bind = function(context) {
 };
 ```
 
+### ES6 Implementation
+
+```
+// ES6 version using rest parameters
+Function.prototype.bind = function(context, ...prevArgs) {
+    var func = this;
+    return function(...args) {
+        return func.apply(context, prevArgs.concat(args));
+    }
+}
+​
+var bind = function(func, context, ...prevArgs) {
+    return function(...args) {
+        return func.apply(context, prevArgs.concat(args));
+    }
+}
+​
+// one liner with arrow functions
+var bind = (func, context, ...prevArgs) => { (...args) => func.apply(context, prevArgs.concat(args)); }
+```
+
 #### Examples where `bind` is used
 
 - Click handlers
