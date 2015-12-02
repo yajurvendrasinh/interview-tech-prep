@@ -57,6 +57,7 @@
 
 ### Algorithms
 
+- [Mike Bostock's Visualizing Algorithms](http://bost.ocks.org/mike/algorithms/)
 - [Visualgo](http://visualgo.net/)  
   Visual learning tool for algorithms and data structures
 - [Sorting Algorithms Animations](http://www.sorting-algorithms.com/)  
