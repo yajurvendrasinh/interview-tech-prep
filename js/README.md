@@ -20,8 +20,14 @@ Community Discussions
 Language
 
 - [Javascript vs ES6 vs Typescript vs Coffeescript](http://www.slideshare.net/NeilGreen1/type-script-vs-coffeescript-vs-es6)
-- [How do Promises Work?](http://robotlolita.me/2015/11/15/how-do-promises-work.html#a-conceptual-understanding-of-promises)
 - [What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
+
+Asynchronous Programming
+
+- [How do Promises Work?](http://robotlolita.me/2015/11/15/how-do-promises-work.html#a-conceptual-understanding-of-promises)
+- [Promise, Future, Task](https://github.com/KjellSchubert/promise-future-task)
+- [Callbacks are imperative, promises are functional](https://blog.jcoglan.com/2013/03/30/callbacks-are-imperative-promises-are-functional-nodes-biggest-missed-opportunity/)
+- [Communicating Sequential Processes- Book](http://www.usingcsp.com/cspbook.pdf)
 
 Client/Server
 
@@ -51,6 +57,7 @@ Node.js
 - [Handling POST data in Node](http://blog.frankgrimm.net/2010/11/howto-access-http-message-body-post-data-in-node-js/)
 - [Handling POST request in Node](http://stackoverflow.com/questions/15427220/how-to-handle-post-request-in-node-js)
 - [HTTP Options method](http://zacstewart.com/2012/04/14/http-options-method.html)
+- [How to Write Node programs with Streams](https://github.com/substack/stream-handbook)
 
 
 

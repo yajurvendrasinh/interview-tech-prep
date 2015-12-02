@@ -2,6 +2,8 @@
 
 ### Practice
 
+- [Big O Quiz](http://www.nlognmag.com/2015/05/quiz-big-o-complexity/)
+- [Big O Ruby Quiz](http://www.codequizzes.com/computer-science/big-o-algorithms)
 - [Interactive coding challenges repo](https://github.com/donnemartin/interactive-coding-challenges#arrays-and-strings)
 - [How to find a Solution](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/)
 
