@@ -28,6 +28,8 @@ Asynchronous Programming
 - [Promise, Future, Task](https://github.com/KjellSchubert/promise-future-task)
 - [Callbacks are imperative, promises are functional](https://blog.jcoglan.com/2013/03/30/callbacks-are-imperative-promises-are-functional-nodes-biggest-missed-opportunity/)
 - [Communicating Sequential Processes- Book](http://www.usingcsp.com/cspbook.pdf)
+- [The long road to Async/Await in JavaScript](https://thomashunter.name/blog/the-long-road-to-asyncawait-in-javascript/)
+- [We have a problem with Promises](http://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html)
 
 Client/Server
 
