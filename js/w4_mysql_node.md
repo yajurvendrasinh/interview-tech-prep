@@ -19,7 +19,7 @@
 - `show databases;`
 - `create database DB_NAME;`
 - `use DB_NAME;`
-- `show tables;
+- `show tables;`
 - `drop database DB_NAME;`
 
 ####Create table
@@ -78,9 +78,51 @@ select * from table_name limit 1;
 
 - [SQL designer](http://ondras.zarovi.cz/sql/demo/)
 
+Turning some JSON into a schema:
+
+```
+var data = {
+  'results': [
+      {
+      "createdAt": "2015-12-01T18:53:52.413Z",
+      "objectId": "F8baj0FytS",
+      "roomname": "lobby",
+      "text": "Where is Rachel!",
+      "updatedAt": "2015-12-01T18:53:52.413Z",
+      "username": "SuperMan"
+    },
+    {
+      "createdAt": "2015-12-01T18:51:09.090Z",
+      "objectId": "YxFS3622N7",
+      "roomname": "NEWROOM",
+      "text": "Batman",
+      "updatedAt": "2015-12-01T18:51:09.090Z",
+      "username": "fawn"
+    },
+    {
+      "createdAt": "2015-12-01T04:02:57.076Z",
+      "objectId": "3Wju8ywLZm",
+      "roomname": "lobby",
+      "text": "akjdhfkasd",
+      "updatedAt": "2015-12-01T04:02:57.076Z",
+      "username": "benji"
+    }
+  ]
+};
+```
+
+- We have Rooms, Users, and Messages.
+- Multiple users for one room.
+- Multiple messages for one user.
+
+![sql_schema](/img/sql_schema.jpg)
+
+
 ### Node.js and MySQL
 
 - Install: `npm install mysql --save`
 - ORM it up with sequelize: `npm install --save sequelize`
+
+
 
 
