@@ -31,6 +31,7 @@ Considerations:
 #### Relational
 
 - RDMS: relational database management systems
+- Normalization: not repeating data in certain places
 - "Structured Query Language": SQL
 - Examples: Oracle, MySQl, Postgres
 - SQL ds tend to be harder to use than NoSQL dbs.
