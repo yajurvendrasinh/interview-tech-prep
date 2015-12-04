@@ -112,10 +112,10 @@ var data = {
 ```
 
 - We have Rooms, Users, and Messages.
-- Multiple users for one room.
-- Multiple messages for one user.
+- Each message is unique to a user. There are multiple messages for each user.
+- Each message is also unique to a room. There are multiple messages for each room.
 
-![sql_schema](/img/sql_schema.jpg)
+![sql_designer](/img/sql_designer.jpg)
 
 Loading in File
 
@@ -151,7 +151,7 @@ Adding foreign keys
 
 ```
 ALTER TABLE `message` ADD FOREIGN KEY (user_id) REFERENCES `user` (`id`);
-ALTER TABLE `user` ADD FOREIGN KEY (room_id) REFERENCES `room` (`id`);
+ALTER TABLE `message` ADD FOREIGN KEY (room_id) REFERENCES `room` (`id`);
 ```
 
 Getting all messages for a specific room:
@@ -180,8 +180,6 @@ Adding a new room:
 INSERT INTO `room` (`id`,`name`) VALUES
 ('1','lobby');
 ```
-
-Adding a new message by a user:
 
 Step 1: get the User ID if user exists
 
