@@ -68,12 +68,15 @@ ALTER TABLE `user` ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 ALTER TABLE `room` ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
 -- ---
--- Test Data
+-- Seed data
 -- ---
 
-INSERT INTO `message` (`id`,`user_id`,`text`,`created_at`,`updated_at`) VALUES
-('','','','','');
-INSERT INTO `user` (`id`,`room_id`,`username`,`created_at`,`updated_at`) VALUES
-('','','','','');
-INSERT INTO `room` (`id`,`name`,`created_at`,`updated_at`) VALUES
-('','','','');
+INSERT INTO message (`id`,`user_id`,`text`,`created_at`,`updated_at`) VALUES
+('1','1','hello world','','');
+
+INSERT INTO user (`id`,`room_id`,`username`,`created_at`,`updated_at`) VALUES
+('1','1','polina','','');
+
+INSERT INTO room (`id`,`name`,`created_at`,`updated_at`) VALUES
+('1','lobby','','');
+

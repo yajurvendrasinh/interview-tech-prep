@@ -130,8 +130,6 @@ CREATE TABLE message (
   id INTEGER,
   user_id INTEGER,
   text VARCHAR(255),
-  created_at TIMESTAMP,
-  updated_at TIMESTAMP,
   PRIMARY KEY (`id`)
 );
 
@@ -139,16 +137,12 @@ CREATE TABLE user (
   id INTEGER,
   room_id INTEGER,
   username VARCHAR(255),
-  created_at TIMESTAMP,
-  updated_at TIMESTAMP,
   PRIMARY KEY (`id`)
 );
 
 CREATE TABLE room (
   id INTEGER,
   name VARCHAR(255),
-  created_at TIMESTAMP,
-  updated_at TIMESTAMP,
   PRIMARY KEY (`id`)
 );
 ```
@@ -159,6 +153,40 @@ Adding foreign keys
 ALTER TABLE `message` ADD FOREIGN KEY (user_id) REFERENCES `user` (`id`);
 ALTER TABLE `user` ADD FOREIGN KEY (room_id) REFERENCES `room` (`id`);
 ```
+
+Getting all messages for a specific room:
+
+```
+SELECT chatter_box.user.username, 
+chatter_box.room.name as 'room name', 
+chatter_box.message.text as 'messages'
+FROM chatter_box.user, chatter_box.message, chatter_box.room
+WHERE chatter_box.user.id = chatter_box.message.user_id 
+and chatter_box.room.name='lobby';
+```
+
+```
++----------+-----------+--------------+
+| username | room name | messages     |
++----------+-----------+--------------+
+| polina   | lobby     | hello world  |
+| rodrigo  | lobby     | hello polina |
++----------+-----------+--------------+
+```
+
+Adding a new room:
+
+```
+INSERT INTO `room` (`id`,`name`) VALUES
+('1','lobby');
+```
+
+Adding a new message by a user:
+
+Step 1: get the User ID if user exists
+
+
+
 
 ### Node.js and MySQL
 
