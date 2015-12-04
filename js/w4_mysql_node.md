@@ -117,6 +117,48 @@ var data = {
 
 ![sql_schema](/img/sql_schema.jpg)
 
+Loading in File
+
+```
+mysql -u root chatter_box < tables.sql
+```
+
+Creating Tables
+
+```
+CREATE TABLE message (
+  id INTEGER,
+  user_id INTEGER,
+  text VARCHAR(255),
+  created_at TIMESTAMP,
+  updated_at TIMESTAMP,
+  PRIMARY KEY (`id`)
+);
+
+CREATE TABLE user (
+  id INTEGER,
+  room_id INTEGER,
+  username VARCHAR(255),
+  created_at TIMESTAMP,
+  updated_at TIMESTAMP,
+  PRIMARY KEY (`id`)
+);
+
+CREATE TABLE room (
+  id INTEGER,
+  name VARCHAR(255),
+  created_at TIMESTAMP,
+  updated_at TIMESTAMP,
+  PRIMARY KEY (`id`)
+);
+```
+
+Adding foreign keys
+
+```
+ALTER TABLE `message` ADD FOREIGN KEY (user_id) REFERENCES `user` (`id`);
+ALTER TABLE `user` ADD FOREIGN KEY (room_id) REFERENCES `room` (`id`);
+```
 
 ### Node.js and MySQL
 

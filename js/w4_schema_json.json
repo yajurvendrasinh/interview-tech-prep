@@ -1,0 +1,303 @@
+{
+  "sql": {
+    "datatypes": {
+      "-db": "mysql",
+      "group": [
+        {
+          "-label": "Numeric",
+          "-color": "rgb(238,238,170)",
+          "type": [
+            {
+              "-label": "Integer",
+              "-length": "0",
+              "-sql": "INTEGER"
+            },
+            {
+              "-label": "TINYINT",
+              "-length": "0",
+              "-sql": "TINYINT"
+            },
+            {
+              "-label": "SMALLINT",
+              "-length": "0",
+              "-sql": "SMALLINT"
+            },
+            {
+              "-label": "MEDIUMINT",
+              "-length": "0",
+              "-sql": "MEDIUMINT"
+            },
+            {
+              "-label": "INT",
+              "-length": "0",
+              "-sql": "INT"
+            },
+            {
+              "-label": "BIGINT",
+              "-length": "0",
+              "-sql": "BIGINT"
+            },
+            {
+              "-label": "Decimal",
+              "-length": "1",
+              "-sql": "DECIMAL",
+              "-re": "DEC"
+            },
+            {
+              "-label": "Single precision",
+              "-length": "0",
+              "-sql": "FLOAT"
+            },
+            {
+              "-label": "Double precision",
+              "-length": "0",
+              "-sql": "DOUBLE",
+              "-re": "DOUBLE"
+            }
+          ]
+        },
+        {
+          "-label": "Character",
+          "-color": "rgb(255,200,200)",
+          "type": [
+            {
+              "-label": "Char",
+              "-length": "1",
+              "-sql": "CHAR",
+              "-quote": "'"
+            },
+            {
+              "-label": "Varchar",
+              "-length": "1",
+              "-sql": "VARCHAR",
+              "-quote": "'"
+            },
+            {
+              "-label": "Text",
+              "-length": "0",
+              "-sql": "MEDIUMTEXT",
+              "-re": "TEXT",
+              "-quote": "'"
+            },
+            {
+              "-label": "Binary",
+              "-length": "1",
+              "-sql": "BINARY",
+              "-quote": "'"
+            },
+            {
+              "-label": "Varbinary",
+              "-length": "1",
+              "-sql": "VARBINARY",
+              "-quote": "'"
+            },
+            {
+              "-label": "BLOB",
+              "-length": "0",
+              "-sql": "BLOB",
+              "-re": "BLOB",
+              "-quote": "'"
+            }
+          ]
+        },
+        {
+          "-label": "Date & Time",
+          "-color": "rgb(200,255,200)",
+          "type": [
+            {
+              "-label": "Date",
+              "-length": "0",
+              "-sql": "DATE",
+              "-quote": "'"
+            },
+            {
+              "-label": "Time",
+              "-length": "0",
+              "-sql": "TIME",
+              "-quote": "'"
+            },
+            {
+              "-label": "Datetime",
+              "-length": "0",
+              "-sql": "DATETIME",
+              "-quote": "'"
+            },
+            {
+              "-label": "Year",
+              "-length": "0",
+              "-sql": "YEAR"
+            },
+            {
+              "-label": "Timestamp",
+              "-length": "0",
+              "-sql": "TIMESTAMP",
+              "-quote": "'"
+            }
+          ]
+        },
+        {
+          "-label": "Miscellaneous",
+          "-color": "rgb(200,200,255)",
+          "type": [
+            {
+              "-label": "ENUM",
+              "-length": "1",
+              "-sql": "ENUM"
+            },
+            {
+              "-label": "SET",
+              "-length": "1",
+              "-sql": "SET"
+            },
+            {
+              "-label": "Bit",
+              "-length": "0",
+              "-sql": "bit"
+            }
+          ]
+        }
+      ]
+    },
+    "table": [
+      {
+        "-x": "651",
+        "-y": "200",
+        "-name": "Message",
+        "row": [
+          {
+            "-name": "id",
+            "-null": "1",
+            "-autoincrement": "1",
+            "datatype": "INTEGER",
+            "default": "NULL"
+          },
+          {
+            "-name": "user_id",
+            "-null": "1",
+            "-autoincrement": "0",
+            "datatype": "INTEGER",
+            "default": "NULL",
+            "relation": {
+              "-table": "User",
+              "-row": "id"
+            }
+          },
+          {
+            "-name": "text",
+            "-null": "1",
+            "-autoincrement": "0",
+            "datatype": "VARCHAR",
+            "default": "NULL"
+          },
+          {
+            "-name": "created_at",
+            "-null": "1",
+            "-autoincrement": "0",
+            "datatype": "TIMESTAMP",
+            "default": "NULL"
+          },
+          {
+            "-name": "updated_at",
+            "-null": "1",
+            "-autoincrement": "0",
+            "datatype": "TIMESTAMP",
+            "default": "NULL"
+          }
+        ],
+        "key": {
+          "-type": "PRIMARY",
+          "part": "id"
+        }
+      },
+      {
+        "-x": "478",
+        "-y": "200",
+        "-name": "User",
+        "row": [
+          {
+            "-name": "id",
+            "-null": "1",
+            "-autoincrement": "1",
+            "datatype": "INTEGER",
+            "default": "NULL"
+          },
+          {
+            "-name": "room_id",
+            "-null": "1",
+            "-autoincrement": "0",
+            "datatype": "INTEGER",
+            "default": "NULL",
+            "relation": {
+              "-table": "Room",
+              "-row": "id"
+            }
+          },
+          {
+            "-name": "username",
+            "-null": "1",
+            "-autoincrement": "0",
+            "datatype": "VARCHAR",
+            "default": "NULL"
+          },
+          {
+            "-name": "created_at",
+            "-null": "1",
+            "-autoincrement": "0",
+            "datatype": "TIMESTAMP",
+            "default": "NULL"
+          },
+          {
+            "-name": "updated_at",
+            "-null": "1",
+            "-autoincrement": "0",
+            "datatype": "TIMESTAMP",
+            "default": "NULL"
+          }
+        ],
+        "key": {
+          "-type": "PRIMARY",
+          "part": "id"
+        }
+      },
+      {
+        "-x": "298",
+        "-y": "199",
+        "-name": "Room",
+        "row": [
+          {
+            "-name": "id",
+            "-null": "1",
+            "-autoincrement": "1",
+            "datatype": "INTEGER",
+            "default": "NULL"
+          },
+          {
+            "-name": "name",
+            "-null": "1",
+            "-autoincrement": "0",
+            "datatype": "VARCHAR",
+            "default": "NULL"
+          },
+          {
+            "-name": "created_at",
+            "-null": "1",
+            "-autoincrement": "0",
+            "datatype": "TIMESTAMP",
+            "default": "NULL"
+          },
+          {
+            "-name": "updated_at",
+            "-null": "1",
+            "-autoincrement": "0",
+            "datatype": "TIMESTAMP",
+            "default": "NULL"
+          }
+        ],
+        "key": {
+          "-type": "PRIMARY",
+          "part": "id"
+        }
+      }
+    ]
+  }
+}
