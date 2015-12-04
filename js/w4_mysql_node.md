@@ -129,13 +129,13 @@ Creating Tables
 CREATE TABLE message (
   id INTEGER,
   user_id INTEGER,
+  room_id INTEGER,
   text VARCHAR(255),
   PRIMARY KEY (`id`)
 );
 
 CREATE TABLE user (
   id INTEGER,
-  room_id INTEGER,
   username VARCHAR(255),
   PRIMARY KEY (`id`)
 );
@@ -180,11 +180,6 @@ Adding a new room:
 INSERT INTO `room` (`id`,`name`) VALUES
 ('1','lobby');
 ```
-
-Step 1: get the User ID if user exists
-
-
-
 
 ### Node.js and MySQL
 
