@@ -186,6 +186,12 @@ INSERT INTO `room` (`id`,`name`) VALUES
 - Install: `npm install mysql --save`
 - ORM it up with sequelize: `npm install --save sequelize`
 
+### SQLite
+
+- MySQl is a server onto itself. It runs on its own process.
+- SQLite lets you do reads and writes within your own process without starting a server.
+- There's many use cases where this lightweight approach is more effective than the more robust approach.
+- Not a production solution. 
 
 
 
