@@ -6,6 +6,10 @@
 
 #### Sessions
 
+- HTTP is a stateless protocol. Sessions make it stateful.
+- Session ID in the cookie identifies the session.
+
+
 - Ability to authenticate user without having to ask for username/password every single time they want to do something (i.e. after they've initially logged in)
 - If login is correct, backend creates a session ID and hands it back. Everytime the user wants to do something it hands us the session ID and our backend checks to see if the user associated with that session ID can do that action.
 - Session IDs are more secure than User IDs in practice. It's nearly impossible to guess a session ID for another user. Accepting User IDs means you could impersonate a user, which is what we do not want.
