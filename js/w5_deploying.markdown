@@ -27,6 +27,11 @@ web: node index.js
 
 ####[Gruntfiles](http://gruntjs.com/)
 
+Goal:
+
+- Run `grunt deploy` to build and host app locally
+- Run `grunt deploy --prod` to push to Heroku
+
 - Grunt [tutorial](https://24ways.org/2013/grunt-is-not-weird-and-hard/)
 - `npm install -g grunt-cli`, `npm install grunt --save`
 - Concatenating files: `npm install grunt-contrib-concat --save-dev`
