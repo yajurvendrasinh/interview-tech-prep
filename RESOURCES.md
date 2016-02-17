@@ -65,6 +65,10 @@
 - [Sorting Algorithms Animations](http://www.sorting-algorithms.com/)  
    Animated demos of Insertion, Selection, Bubble, Shell, Merge, Heap, Quick, and Quick3 sorts, with an explanation of how they work.
 
+### System Design
+
+- http://www.hiredintech.com/system-design/the-system-design-process/
+
 ### Complexity and Big O
 
 - Jim Marshall's [lecture notes](http://science.slc.edu/~jmarshall/courses/2002/spring/cs50/BigO/).
@@ -82,4 +86,8 @@
 ### Culture Fit
 
 - [Questions to ask employers](https://github.com/ChiperSoft/InterviewThis)
+
+### Networking
+
+- http://www.leadershipcloseup.com/2012/12/14/strength-of-weak-ties-in-social-networking-seek-to-be-worth-knowing/
 
