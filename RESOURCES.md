@@ -6,6 +6,7 @@
 - [Big O Ruby Quiz](http://www.codequizzes.com/computer-science/big-o-algorithms)
 - [Interactive coding challenges repo](https://github.com/donnemartin/interactive-coding-challenges#arrays-and-strings)
 - [How to find a Solution](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/)
+- Coderust 2.0: Faster Coding Interview Preparation using Visualizations: https://www.educative.io/collection/5642554087309312/5679846214598656
 
 ### Platforms
 
