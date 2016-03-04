@@ -66,5 +66,10 @@ Databases
 - [How does a relational database work](https://getpocket.com/a/read/1015899058)
 - [SQL designer](http://ondras.zarovi.cz/sql/demo/)
 
+Angular
+
+- Memory leaks and Angular: http://www.dwmkerr.com/fixing-memory-leaks-in-angularjs-applications/
+
+
 
 
