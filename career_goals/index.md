@@ -24,7 +24,7 @@
 - more brand recognition than I currently have
 - all expense paid tech conferences
 
-### Shortlist
+### Proposed Shortlist
 
 - Github (600)
 - Heroku (200)
