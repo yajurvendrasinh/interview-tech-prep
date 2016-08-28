@@ -5,7 +5,7 @@
 - learn, network, mentor, interview prep
 - get good at Ruby
 - focus on health (exercise)
-- pay down debts
+- pay off student loans
 
 ### 2018
 
